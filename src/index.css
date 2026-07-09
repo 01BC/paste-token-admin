@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    background-color: #080c14;
+  }
+}
+
+@layer utilities {
+  .card-glow {
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.05), 0 4px 24px rgba(0,0,0,0.4);
+  }
+
+  .stat-glow-blue {
+    text-shadow: 0 0 24px rgba(59,130,246,0.5);
+  }
+
+  .stat-glow-green {
+    text-shadow: 0 0 24px rgba(16,185,129,0.5);
+  }
+
+  .stat-glow-red {
+    text-shadow: 0 0 24px rgba(239,68,68,0.5);
+  }
+}
